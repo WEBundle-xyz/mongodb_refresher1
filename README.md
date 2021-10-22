@@ -18,8 +18,4 @@
 
 [7 - POST / GET - getting products from the database ](../../tree/58c180bda90145a2447e99e7bb618afb20df6efa/)
 
-[8 - Empty ](../../tree//)
-
-[9 - Empty ](../../tree//)
-
-[10 - Empty ](../../tree//)
+[8 - Finished ](../../tree/d5552d76992310a30b08d8c1c0465ddd41ff6895/)
