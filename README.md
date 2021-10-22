@@ -16,7 +16,7 @@
 
 [6 - Connected to the database and stored the product ](../../tree/90c9595c70088eceea1c678f4ec3e72d27a2afa4/)
 
-[7 - Empty ](../../tree//)
+[7 - POST / GET - getting products from the database ](../../tree/58c180bda90145a2447e99e7bb618afb20df6efa/)
 
 [8 - Empty ](../../tree//)
 

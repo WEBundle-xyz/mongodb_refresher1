@@ -1,4 +1,3 @@
-const { MongoBatchReExecutionError } = require('mongodb');
 const mongoose = require('mongoose');
 
 const Product = require('./models/product');
@@ -19,8 +18,9 @@ const createProduct = async (req, res, next) => {
     name: req.body.name,
     price: req.body.price,
   });
+  // console.log(createdProduct);
   const result = await createdProduct.save();
-
+  console.log(typeof createdProduct._id);
   res.json(result);
 };
 
