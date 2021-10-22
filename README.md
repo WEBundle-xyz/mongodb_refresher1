@@ -14,7 +14,7 @@
 
 [5 - Created a product ](../../tree/4a99ece1950a52b89e346717a84a10feb5004b15/)
 
-[6 - Empty ](../../tree//)
+[6 - Connected to the database and stored the product ](../../tree/90c9595c70088eceea1c678f4ec3e72d27a2afa4/)
 
 [7 - Empty ](../../tree//)
 
