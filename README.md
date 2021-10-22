@@ -12,7 +12,7 @@
 
 [4 - Created models and schemas ](../../tree/f3e39625f38e3a1c362358ecf0aa8d7f4acf4788/)
 
-[5 - Empty ](../../tree//)
+[5 - Created a product ](../../tree/4a99ece1950a52b89e346717a84a10feb5004b15/)
 
 [6 - Empty ](../../tree//)
 
