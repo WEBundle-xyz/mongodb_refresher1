@@ -1,10 +1,43 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/products_test?retryWrites=true&w=majority'
+const url =
+  'mongodb+srv://WEBundle1:patrocle2190@cluster0.qntgf.mongodb.net/products_test?retryWrites=true&w=majority';
 
-const creatProduct = async (req, res, next) => {};
+const createProduct = async (req, res, next) => {
+  const newProduct = {
+    name: req.body.name,
+    price: req.body.price
+  };
+  const client = new MongoClient(url);
 
-const getProducts = async (req, res, next) => {};
+  try {
+    await client.connect();
+    const db = client.db();
+    const result = db.collection('products').insertOne(newProduct);
+  } catch (error) {
+    return res.json({message: 'Could not store data.'});
+  };
+  client.close();
 
-exports.creatProduct = creatProduct;
+  res.json(newProduct);
+};
+
+const getProducts = async (req, res, next) => {
+  const client = new MongoClient(url);
+
+  let products;
+
+  try {
+    await client.connect();
+    const db = client.db();
+    products = await db.collection('products').find().toArray();
+  } catch (error) {
+    return res.json({message: 'Could not retrieve products.'});
+  };
+  client.close();
+
+  res.json(products);
+};
+
+exports.createProduct = createProduct;
 exports.getProducts = getProducts;
