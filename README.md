@@ -10,7 +10,7 @@
 
 [3 - Creating POST and GET requests ](../../tree/504b6f25ec25a40ea0bce984254a59c05be5f5be/)
 
-[4 - Empty ](../../tree//)
+[4 - Created models and schemas ](../../tree/f3e39625f38e3a1c362358ecf0aa8d7f4acf4788/)
 
 [5 - Empty ](../../tree//)
 
